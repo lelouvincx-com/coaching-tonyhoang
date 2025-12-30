@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://tonystark.lelouvincx.com',
+  url: 'https://tonyhoang.lelouvincx.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -23,7 +23,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'lelouvincx-com', // Usually your GitHub org/user name.
-  projectName: 'tonystark', // Usually your repo name.
+  projectName: 'tonyhoang', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -44,7 +44,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/lelouvincx-com/coaching-tonystark/tree/main/',
+            'https://github.com/lelouvincx-com/coaching-tonyhoang/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -87,7 +87,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: "Tony Stark's Documentation",
+      title: "Tony Hoang's Documentation",
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -100,7 +100,7 @@ const config: Config = {
           label: 'All Documents',
         },
         {
-          href: 'https://github.com/lelouvincx-com/coaching-tonystark',
+          href: 'https://github.com/lelouvincx-com/coaching-tonyhoang',
           label: 'GitHub',
           position: 'right',
         },
@@ -118,12 +118,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/lelouvincx-com/coaching-tonystark',
+              href: 'https://github.com/lelouvincx-com/coaching-tonyhoang',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} tonystark. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} tonyhoang. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

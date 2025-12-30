@@ -12,4 +12,4 @@ Disallow: /search
 Allow: /docs/
 
 # Sitemap location
-Sitemap: https://tonystark.lelouvincx.com/sitemap.xml
+Sitemap: https://tonyhoang.lelouvincx.com/sitemap.xml
