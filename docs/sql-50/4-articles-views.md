@@ -12,4 +12,4 @@ where viewer_id = author_id
 order by author_id
 ```
 
-Find all author who viewd their own article at least once 
+Find all authors who viewd their own article at least once, where  input has at least one pair of same viewer_id and author_id
