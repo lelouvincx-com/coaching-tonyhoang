@@ -13,4 +13,4 @@ select to_char(date_trunc('month',trans_date)::date, 'YYYY-MM') as month,
 from Transactions t
 group by month, t.country
 ```
-In this case, we use date_trunct to group the data by month, and we use to_char so the ouput column only show month and year, no day. we use case when  in approved_count to add 1 if the state is approved, else it will stay 0, same for the total approved amount.
+In this case, we use date_trunc to group the data by month, and we use to_char so the ouput column only show month and year, no day. we use case when  in approved_count to add 1 if the state is approved, else it will stay 0, same for the total approved amount.
