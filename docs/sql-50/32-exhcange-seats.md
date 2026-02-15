@@ -13,4 +13,4 @@ from Seat s1
 left join Seat s2 on s1.id = s2.id +1
 left join Seat s3 on s1.id = s3.id -1
 ```
-we self join s1 with s2 and 3 to get 3 consecutive id in a row and their name also, wih odd number, we get student naame in s3 table which is the bigger id, and with even number we get in s2 which is the smaller id number compare to s1. the coalesce is used for the odd id that is the biggest one, which we will keep the same name, no swapping id.
+we get 3 consecutive  id in one row  by self join s1 with s2 and 3. We get student naame in s3 table which is the bigger id, and with even number we get in s2 which is the smaller id number compare to s1. the coalesce is used for the odd id that is the biggest one, which we will keep the same name, no swapping id.
