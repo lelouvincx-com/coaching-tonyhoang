@@ -22,4 +22,4 @@ else 0
 end)::numeric/count(distinct sd.player_id),2) as fraction
 from second_day sd
 ```
-first we get the first cte to get all first og in day group by player id, after that we join using player id to have second day with first day in one row. then we use case when to get the nominator: +1 if first login da is one day b4 the event date els 0, then divide by countitn all distinct player_id.
+first we get the first cte to get all first log in day group by player id, after that we join using player id to have second day with first day in one row. then we use case when to get the nominator: +1 if first login day is one day b4 the event date els 0, then divide by countitn all distinct player_id.
